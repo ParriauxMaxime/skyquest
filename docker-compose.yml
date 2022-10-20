@@ -1,0 +1,19 @@
+services:
+  skyquestdb:
+    container_name: skyquestdb
+    image: postgis/postgis
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=skyquest
+      - POSTGRES_USER=postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - ./data:/var/lib/postgresql/data
+
+  metabase:
+    container_name: metasky
+    image: metabase/metabase:latest
+    ports:
+      - 9000:3000

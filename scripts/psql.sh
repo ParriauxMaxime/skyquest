@@ -1,0 +1,1 @@
+PGPASSWORD=password psql -h localhost -U postgres -d skyquest
