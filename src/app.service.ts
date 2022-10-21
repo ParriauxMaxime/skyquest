@@ -44,7 +44,6 @@ export class AppService {
   }
 
   async getProfile() {
-    //
     await this.getProfileRecurse('xx-nanadu25-xx', 2);
     console.info('done');
   }

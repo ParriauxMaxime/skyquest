@@ -14,6 +14,5 @@ async function bootstrap() {
     await service.getProfileRecurse(pseudo, 2);
     console.info('done', pseudo);
   };
-  service.getProfile();
 }
 bootstrap();

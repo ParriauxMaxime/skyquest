@@ -20,9 +20,11 @@ export class FansService {
       'ul.pagination li.current a',
     ) as HTMLAnchorElement;
 
-    /** Limit those crazy girls to 800 fans */
+    /** Limit those crazy girls to 800 fans
+     * https://en.wikipedia.org/wiki/Dunbar%27s_number
+     */
     {
-      if (current && Number(current.innerHTML) > 20) return;
+      if (current && Number(current.innerHTML) >= 20) return;
     }
 
     if (next) {
