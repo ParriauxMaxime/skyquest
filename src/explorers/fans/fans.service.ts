@@ -20,9 +20,9 @@ export class FansService {
       'ul.pagination li.current a',
     ) as HTMLAnchorElement;
 
-    /** Limit those crazy girls to 4000 fans */
+    /** Limit those crazy girls to 800 fans */
     {
-      if (current && Number(current.innerHTML) > 100) return;
+      if (current && Number(current.innerHTML) > 20) return;
     }
 
     if (next) {
@@ -58,6 +58,10 @@ export class FansService {
     const profileLink = (document.querySelector('#blogprofil .infos a') ||
       document.querySelector('h1.blogpseudo a') ||
       document.querySelector('#blogwhois p.infos a')) as HTMLAnchorElement;
+
+    if (!profileLink) {
+      return [];
+    }
 
     const pseudo = parsePseudo(profileLink.innerHTML);
     if (profileLink.classList.contains('girl')) {
