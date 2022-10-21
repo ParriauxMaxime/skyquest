@@ -2,7 +2,11 @@
 
 ### **A Skyblog oddity**
 
-> _"In a non-indexed website, no one can hear you crawl"_
+<p align="center">
+ <img src="https://i.imgur.com/a5cTDmk.png" width="400" alt="Powaa" />
+</p>
+
+> _In a non-indexed website, no one can hear you crawl_
 
 <br />
   
@@ -113,8 +117,8 @@ In a nutshell, you're connected to anybody on this planet in less than 6 hops
 
 <br />
 
-- **Q:** My target did not fill his infos at that time, what should I do ?  
-  **A:** Some of his/her friends had those infos filled, you should try to iterate on "close" (geographic era/age) fans
+- **Q:** My target did not filled his infos at that time, what should I do ?  
+  **A:** Some of his/her friends/fans had those infos filled, you should try to iterate on "close" (geographic era/age) fans
 
 <br />
 
